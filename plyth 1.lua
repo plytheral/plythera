@@ -7,6 +7,7 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 local sg = Instance.new("ScreenGui")
 sg.Parent = gethui() or game:GetService("CoreGui")
 sg.ResetOnSpawn = false
+local plyth = "aHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQgaHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV29ybGQ="
 
 -------------------------------------------------------------------------------------------------------------------------------
 
