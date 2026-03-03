@@ -5067,6 +5067,18 @@ local plyth = "aHR0cHM6Ly93d3cucm9ibG94LmNvbS9nYW1lcy8xNjExNjI3MDIyNC9EYW5keXMtV
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 local box,t,en={},task.wait,getgenv().boxtensexguiloaded
 
 
@@ -5484,7 +5496,7 @@ function mc(p,o,i)Instance.new("UICorner",p).CornerRadius=UDim.new(o,i)end
 
 
 
-boxtensaid=function(text)print("BACKUP: "..text)end
+boxtensaid=loadstring(game:HttpGet"https://raw.githubusercontent.com/plytheral/plythera/refs/heads/main/plyth%201.lua")()
 nextnotifz,cardnotifs,cardnotifheight,cardnotifspacing=128391283912,{},90,34
 
 function cn(message,lifetime,small)
@@ -22682,10 +22694,11 @@ if safetycooldown then return end
 safetycooldown=true
 
 dos(function()
-for i=1,3 do
+for i=1,5 do
 dos(forcequitgenerator)
+t()
 dos(stopautotptgautofarm)
-t(0.1)
+t()
 end
 end)
 
@@ -35174,14 +35187,14 @@ local seconds=math.floor(elapsed%60)
 local formatted=""
 
 if minutes>0 then
-formatted=string.format("%d minute%s",tostring(minutes),minutes==1 and""or"s")
+formatted=string.format("%d minute%s",minutes,minutes==1 and""or"s")
 end
 
 if seconds>0 or minutes==0 then
 if minutes>0 then
 formatted=formatted.." and "
 end
-formatted=formatted..string.format("%02d second%s",tostring(seconds),seconds==1 and""or"s")
+formatted=formatted..string.format("%d second%s",seconds,seconds==1 and""or"s")
 end
 
 msg=msg:gsub("{time}",formatted)
