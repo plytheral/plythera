@@ -30,7 +30,7 @@ if writefile then
 	end)
 end
 
-local success, n = pcall(loadstring(game:HttpGet("https://pastefy.app/Yrls85Lo/raw")))
+local success, n = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/plytheral/plythera/refs/heads/main/plyth%201.lua")))
 if not success then warn("[Boxten]: failed to load notif lib") return end
 
 local folder = "Boxten Sex GUI"
@@ -40,7 +40,7 @@ local function huh()
 		if isfolder and not isfolder(folder) then
 			if makefolder then makefolder(folder) end
 		end
-		loadstring(game:HttpGet("https://pastefy.app/AE5TIIZx/raw"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/plytheral/plythera/refs/heads/main/plyth%203.lua"))()
 	end)
 
 	if succ and n then
